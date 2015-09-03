@@ -1,0 +1,16 @@
+{
+  "name": "upload-server",
+  "version": "1.0.0",
+  "description": "Send file from browser via socket.io",
+  "scripts": {
+    "server": "node api",
+    "client": "node_modules/browser-sync/bin/browser-sync.js start --server app"
+  },
+  "dependencies": {
+    "socket.io": "^1.3.6",
+    "socket.io-stream": "^0.8.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.8.3"
+  }
+}
